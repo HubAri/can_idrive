@@ -1,6 +1,15 @@
 # Can I Drive?
 Little personal project for my daily life. Advises on whether to go for a drive or not according to certain criteria.
-React/JavaScript
+
+# How to use 
+1. Create personal API-Key on [https://openweathermap.org/api] - (free plan) 
+2. Go to `src/App.js` and enter API key in line 12
+3. Run by using `npm start`
+
+## Preview:
+
+![can_i_drive](https://github.com/HubAri/can-i-drive/assets/149235827/7e28567d-77c9-4301-a6b9-6fe6f0ef6467)
+
 
 # Getting Started with Create React App
 
