@@ -1,0 +1,167 @@
+*{
+  box-sizing : border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(19, 19, 19, 0.651);
+  color: white;
+}
+
+.app .search {
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  padding: 1rem;
+  gap: 5px;
+  background: rgb(66, 66, 66);
+
+}
+
+.app input {
+  position: relative;
+  top: 25px;
+  height: 50%;
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(19, 19, 19, 0.1);
+  color: white;
+}
+
+::placeholder {
+  color: white
+}
+
+/* If background needed
+.app:before {
+content: '';
+background: url('./assets/') no-repeat center center/cover;
+position: absolute;
+width: 100%;
+height: 100%
+top: 0;
+left: 0;
+z-index: -1;
+} */
+
+.container {
+  max-width: 700px; /*400px*/
+  height: 700px;
+  margin: auto;
+  padding: 01rem;
+  position: relative;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app .top{
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.app .description{
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
+
+.app .bottom{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(250, 235, 215, 0.144);
+}
+
+.thick{
+  font-weight: 600;
+}
+
+.app .footer{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(250, 235, 215, 0.144);
+}
+
+.app .resultImage{
+  display: flex;
+  position: relative;
+  left: 20%;
+
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgba(250, 235, 215, 0.144);
+}
+
+.app .tickBox{
+  display:flex;
+  transform: scale(0.7);
+  text-align: center;
+
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.144);
+}
+
+.app .temp{
+  display: flex;
+
+}
+
+.app .weatherIcon{
+
+  position: relative;
+  left: 20%;
+  transform: scale(1.2);
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.144);
+}
+
+.app .logo{
+  transform: scale(0.8);
+}
