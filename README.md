@@ -1,5 +1,5 @@
 # Can I Drive?
-Little personal project for my daily life. Advises on whether to go for a drive or not according to certain criteria.
+Little personal project for my daily life. Recommends whether to go for a drive or not according to certain criteria.
 
 # How to use 
 1. Create personal API-Key on [https://openweathermap.org/api] - (free plan) 
